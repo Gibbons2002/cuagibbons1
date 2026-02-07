@@ -1,0 +1,139 @@
+Once you successfully published a webpage on the Web, copy the URL of your webpage and submit it here.
+
+
+LSC555 Information Systems in Libraries and Information Centers Class Worksheet (Week 4)
+HTML Exercise
+In this exercise, you will create an HTML file, upload the file to the CUA web server to publish
+to the Web, and then see your web page from the browser. Follow the procedure below.
+How to Create an HTML file
+1. 2. 3. Click on Start button on your computer  Accessories  Notepad
+Now you will see a text editor screen. Type the following to declare an HTML5 document.
+<!DOCTYPE html>
+Consider the basic structure of the HTML and include <html>, <head>, and <body> tags.
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+</body>
+</html>
+4. In the next line, type the following, (you can replace the content with your own. This is an
+example.).
+<!DOCTYPE html>
+<html>
+<head>
+<title>My LSC555 Webpage</title>
+<meta name="keywords" content="… add your keywords …" />
+<meta charset= "UTF-8" />
+5. </head>
+<body>
+In this body section, you can enter any html tags and content for your
+webpage. Once you finish adding tags and content, close body tag and
+html tags to complete the document.
+</body>
+</html>
+For this exercise, at least include a paragraph (<p>), a heading (e.g. <h2>), a link (<a>), and
+a list (e.g. <ol> or <ul>) in the <body>. Try other tags as well, if possible.
+1LSC255 Introduction to Information Systems
+LSC555 Information Systems in Libraries and Information Centers 6. 7. Class Worksheet (Week 4)
+HTML Exercise
+Once you completed the HTML document, now you need to save this text file as an HTML
+file format. Choose “File” on the menu bar,  Then select “Save as.”
+When you see a save option, select a location to save your file (maybe, Desktop). Then, as
+shown below, choose “Save as type” to Text Document (.txt) which will be a default
+option.
+Then, name your file as “lsc555-yourlastname.html” which yourlastname is your real last
+name like syn. All lower case. No space on the file name is preferred. (If there is a space,
+browsers will insert a special character which a user may have a hard time to recognize the
+file name.) Then, click on “Save” button to save it.
+Make sure your final name ends with
+.html file extension.
+E.g., lsc555-syn.html
+Uncheck "if no extensions use .txt"
+NOTE: For MAC users
+For those who use Mac computers for creating HTML, please follow the following steps.
+1. Open TextEdit and create the HTML file.
+2. Go to Format and select "Make Plain Text".
+3. Select File  Save As and add .html to the file name. 4. In the save as type make sure it is Unicode UTF 8.
+5. Save the file and open it in the Browser. like the note pad.
+You see the web file and can reveal the source code just
+You have to make sure that you are setting the format as "plain text" and save as "html." Also note
+that TextEdit changes standard quotation marks to "curly" quotation marks automatically and this
+causes a problem in HTML/XML even in Plain Text. There is an option to turn off "smart quotes" in
+preferences which solves the issue.
+See https://support.apple.com/guide/textedit/work-with-html-documents-txted0b6cd61/mac for more
+information.
+2LSC255 Introduction to Information Systems
+LSC555 Information Systems in Libraries and Information Centers Class Worksheet (Week 4)
+HTML Exercise
+8. Now close your document to see if it is saved as html file.
+9. If you see an html icon of your file, click on it to open it. You will see it displayed in a web
+browser (e.g. Internet Explorer).
+10.Now you are ready to upload your html document to the GitHub web server. (See next page
+for detailed steps for uploading to the GitHub web server.)
+11.If you want to change or modify your page,
+i. ii. iii. Place your mouse and click on the right button on it while your file is closed.
+Choose an option, “Open With”  “Notepad” as shown below.
+Now you will see your html document in a text format. You can edit it.
+(To make changes to your code, it is better to use the text editor and re-upload the file instead of
+the online editors as they might function differently depending on the service you use.)
+So far, your html file is stored on your computer not network even if you can see what your web
+page looks like by clicking on your html file on an internet explorer or any web browser
+(software). But your page is not online on the Internet for others to be able to access on the Web.
+To do so, we need to upload your file on a web server.
+Publish the web page to the Web server
+We will use a free Web hosting service, GitHub (https://github.com/), to publish web
+pages.
+1. Go to https://github.com/. Enter your Email address and Click Sign Up for GitHub.
+3LSC255 Introduction to Information Systems
+LSC555 Information Systems in Libraries and Information Centers Class Worksheet (Week 4)
+HTML Exercise
+2. Click on “Your repositories”.
+3. Click on “New” button to create a new repository.
+4. Enter a repository name. Name it as “cualisyourlastname”
+4LSC255 Introduction to Information Systems
+LSC555 Information Systems in Libraries and Information Centers Class Worksheet (Week 4)
+HTML Exercise
+5. We also want to make sure our repository is “Public”. GitHub page is only free if you have a
+public repository.
+6. Leave other options as default and click “Create Repository” at the bottom.
+7. Upload your html file to GitHub by clicking “uploading an existing file”.
+8. After finishing uploading your html file, click “Commit changes” at the bottom.
+5LSC255 Introduction to Information Systems
+LSC555 Information Systems in Libraries and Information Centers 9. Then, go to “Setting”.
+Class Worksheet (Week 4)
+HTML Exercise
+10.Go to “Pages” Tab” from the Setting.
+11.Under “Source” Click “None” and change it to “main”. Then, click “Save”.
+12. After a few minutes, you will be able to see the address of your website.
+6LSC255 Introduction to Information Systems
+LSC555 Information Systems in Libraries and Information Centers Class Worksheet (Week 4)
+HTML Exercise
+In order to see a webpage that you made with your html file, add the name of your file at the end
+of the above address.
+Ex). https://supersimpledev-tester1.github.io/supersimple-website/nameofyourfile
+Submit your work
+Once you successfully published a webpage on the Web, copy the URL of your webpage and
+submit it to this week’s Discussion Board.
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+        <head>
+(<h2>)
+(<a>)
+                <title>My LSC555 Webpage</title>
+<meta name="keywords" content="… add your keywords …" />
+<meta charset= "UTF-8" />
+ </head>
+<body>
+(<ol>)
+                </body>
+(<p>)
+
+
+</html>
